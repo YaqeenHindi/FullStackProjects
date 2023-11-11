@@ -59,6 +59,17 @@ body:after {
     padding: 24px 19.5px;
     color: #777777;
 }
+@media only screen and (min-width: 768px) {
+    .menu a {
+        padding: 24px 9.5px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .menu a {
+        padding: 24px 3.5px;
+    }
+}
 
 .menu a:hover {
     background-color: #a387ff;
@@ -290,8 +301,13 @@ a {
     color: white;
 
 }
+@media only screen and (max-width: 600px) {
+    .subscription button{
+        width: 45%;
+    }
+}
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .subscription button {
         top: 100%;
         left: 30%;
@@ -311,8 +327,15 @@ a {
     text-transform: uppercase;
     list-style: none;
 }
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-inline-start: 0px;
+}   
+
 .footer-menu li {
     padding: 0 40px;
+    float: left;
 }
 a, a:focus, a:hover {
     text-decoration: none;
@@ -332,4 +355,10 @@ a, a:focus, a:hover {
 .footer-social a i {
     color: #777;
     padding: 0 20px;
+}
+@media only screen and (max-width: 600px) {
+    .footer-menu li {
+        padding: 0 10px;
+        
+    }
 }
