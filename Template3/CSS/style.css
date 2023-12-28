@@ -782,6 +782,12 @@ background-size: cover;
     text-decoration: none;
     
 }
+@media (max-width: 775px){
+.experts-caption h2 {
+    font-size: 25px;
+    padding-right: 2%;
+}
+}
 
 /* ========================================End experts======================================== */
 
