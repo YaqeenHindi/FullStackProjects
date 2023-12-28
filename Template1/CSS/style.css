@@ -1,0 +1,364 @@
+body {
+    background-image: url("../img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    position: relative;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+body:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: -webkit-linear-gradient(135deg, #91d1ff 0%, #a387ff 100%);
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.main {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 68.75%;
+    margin-bottom: 150px;
+}
+
+@media (min-width: 1200px) {
+    .main {
+        width: 75%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .main {
+        width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    .main {
+        margin-top: 3rem;
+        width: 97%;
+    }
+}
+
+.logo img {
+    margin-left: -20px;
+    display: inline;
+}
+
+.menu a {
+    padding: 24px 19.5px;
+    color: #777777;
+}
+@media only screen and (min-width: 768px) {
+    .menu a {
+        padding: 24px 9.5px;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .menu a {
+        padding: 24px 3.5px;
+    }
+}
+
+.menu a:hover {
+    background-color: #a387ff;
+    color: white;
+}
+
+.navbar {
+    position: relative;
+    flex-wrap: nowrap;
+    padding: 0 1rem;
+}
+
+.banner {
+    height: 400px;
+    background-image: url("../img/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.overlay {
+    background-image: -webkit-linear-gradient(135deg, #91d1ff 0%, #a387ff 100%);
+    opacity: 0.9;
+}
+
+h1 {
+    font-size: 2.1rem;
+    font-weight: 100;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 span {
+    font-weight: 600;
+}
+
+.about-left img {
+    outline: 10px solid #777;
+    outline-offset: -50px;
+    border: 44px solid transparent;
+    border-width: 15px 10px 77px 70px;
+}
+.about-right i {
+    color: #a387ff;
+    font-size: 30px;
+}
+.about-right h1 span {
+    font-weight: 600;
+    color: #000;
+    
+}
+.about-right h1 {
+    font-size: 36px;
+    font-weight: 100;
+    color: #a387ff;
+
+}
+.about-right p {
+    padding-right: 45px;
+}
+.about-right a {
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.about-right a:hover {
+    color: #a387ff;
+   
+}
+.feature {
+    background-image: -webkit-linear-gradient(135deg, #a387ff 0%, #91d1ff 100%);
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+
+.single-feature {
+    background: #fff;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.single-feature h2 {
+    font-size: 1.125em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.single-feature p {
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.single-facts h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+    line-height: 1.5em;
+
+}
+
+.single-facts p {
+    font-size: 24px;
+    font-weight: 100;
+    color: #a387ff;
+}
+
+.secvice-area {
+    background-color: #f9faff;
+
+}
+
+.single-service {
+    margin-bottom: 20px;
+}
+
+.single-service h2 {
+    padding: 20px 20px 0px 20px;
+    font-size: 1.125em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #222222;
+}
+
+.single-service p {
+    padding: 0px 20px 0px 22px;
+    font-size: 0.95em;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-height: 172px;
+    color: #777777;
+}
+
+.view-details {
+    color: #a387ff;
+    background: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 20px 3px 50px -25px rgba(0, 0, 0, 0.75);
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.single-feature2 .number h1 {
+    color: #a387ff;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.single-feature2 h2 {
+    font-size: 1.125em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.desc {
+    margin-left: 20px;
+}
+
+.subscription-area {
+    background-image: -webkit-linear-gradient(135deg, #a387ff 0%, #91d1ff 100%);
+    background-image: -ms-linear-gradient(135deg, #a387ff 0%, #91d1ff 100%);
+    color: #fff;
+}
+
+.subscription-area h3 {
+    font-size: 36px;
+    font-weight: 100;
+    text-transform: uppercase !important;
+    line-height: 1.5em;
+    font-family: "Poppins", sans-serif;
+}
+
+.subscription-area h3 span {
+    font-weight: 600;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.subscription {
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+}
+
+.subscription input {
+    width: 100%;
+    line-height: 50px;
+    padding: 0 0 0 25px;
+    border: none;
+    background: transparent;
+    font-weight: 300;
+    border-radius: 25px;
+    background: #f9f9ff;
+
+}
+
+.subscription button {
+    width: 33%;
+    height: 80%;
+    line-height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+    background: transparent;
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    background-image: -webkit-linear-gradient(135deg, #91d1ff 0%, #a387ff 100%);
+    border: none;
+    color: white;
+
+}
+@media only screen and (max-width: 600px) {
+    .subscription button{
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .subscription button {
+        top: 100%;
+        left: 30%;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width:767px) and (max-width: 991px) {
+    .subscription button {
+        width: 28%;
+        left: 70%;
+    }
+}
+.footer-menu{
+    display: inline-flex;
+    font-weight: 600;
+    text-transform: uppercase;
+    list-style: none;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-inline-start: 0px;
+}   
+
+.footer-menu li {
+    padding: 0 40px;
+    float: left;
+}
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+    color: #777777;
+    transition: all 0.3s ease 0s;
+}
+.footer-menu li a:hover{
+    color:#b099fa;
+
+}
+.footer-social {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.footer-social a i {
+    color: #777;
+    padding: 0 20px;
+}
+@media only screen and (max-width: 600px) {
+    .footer-menu li {
+        padding: 0 10px;
+        
+    }
+}
