@@ -283,7 +283,7 @@
      }
 
      .info {
-         top: 13%
+         top: 21%
      }
 
      .carousel-item img {
@@ -782,11 +782,13 @@ background-size: cover;
     text-decoration: none;
     
 }
-@media (max-width: 775px){
-.experts-caption h2 {
-    font-size: 25px;
-    padding-right: 2%;
-}
+
+@media (max-width:765px) {
+    .experts-section h2{
+        font-size: 25px;
+        padding-right: 2%;
+   }
+
 }
 
 /* ========================================End experts======================================== */
