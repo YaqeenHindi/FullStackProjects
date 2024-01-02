@@ -1,0 +1,493 @@
+body {
+    background-color: #f67590;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+
+}
+
+.bg-section {
+    background-color: #f66483;
+
+}
+
+.width-auto {
+    width: 80%;
+    margin: auto;
+}
+
+@media (min-width:777px) and (max-width:1200px) {
+    .width-auto {
+        width: 90%;
+    }
+
+
+}
+
+@media (max-width:767px) {
+    .width-auto {
+        width: 95%;
+    }
+
+
+}
+
+/* ----------------------------------------Header Start---------------------------------------- */
+.navbar-list {
+
+
+    transition: all 0.3s ease 0s;
+    transform-origin: 100% 50%;
+}
+
+.navbar-list li {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 15px;
+
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 25px;
+
+}
+
+.navbar-icon {
+    margin-left: 90px;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.header {
+    margin-top: 5%;
+    padding: 20px 20px;
+    position: relative;
+
+}
+
+
+@media (max-width:700px) {
+    .header {
+        max-width: 95%;
+        padding: 15px 0;
+    }
+
+    .navbar-list li {
+        display: block;
+
+    }
+
+    .navbar-list li a {
+        color: #f66483;
+        font-size: 20px;
+    }
+
+    .navbar-list {
+        background-color: white;
+        position: absolute;
+        top: 68px;
+        align-items: center;
+        z-index: 1;
+    }
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+        margin-right: 5%;
+
+
+    }
+
+}
+
+/* ----------------------------------------Header End---------------------------------------- */
+
+/* ----------------------------------------Banner Start---------------------------------------- */
+
+.banner-content {
+    color: white;
+    padding: 10px 20px;
+
+}
+
+.banner-content h1 {
+    line-height: 1.25em !important;
+    font-size: 36px;
+}
+
+.banner-content p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.banner-content button {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 0 40px;
+    border: 1px solid transparent;
+    line-height: 40px;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.25s all ease-out;
+    -webkit-transition: 0.25s all ease-out;
+    -moz-transition: 0.25s all ease-out;
+    -ms-transition: 0.25s all ease-out;
+    -o-transition: 0.25s all ease-out;
+}
+
+.banner-content button i {
+    padding-left: 13px;
+    font-size: 15px;
+}
+
+.banner-content button:hover {
+    background-color: #f67590;
+    color: white;
+    border: 1px solid white;
+
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+
+}
+
+@media (max-width:790px) {
+    .banner-content {
+        padding: 10px 10px;
+    }
+
+    .banner-content h1 {
+        font-size: 18px;
+    }
+
+    .banner-content button {
+        padding: 0 20px;
+    }
+
+
+}
+
+/* ----------------------------------------Banner End---------------------------------------- */
+
+
+/* ----------------------------------------Feature Start---------------------------------------- */
+.Single-feature {
+    padding: 5rem 0.8rem;
+}
+
+.Single-feature h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 1.25em !important;
+}
+
+.Single-feature p {
+    color: #777777;
+
+}
+
+.Single-feature a {
+    text-decoration: none;
+    font-weight: 400;
+    outline: 0;
+    color: #222222;
+    transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -ms-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+
+}
+
+.Single-feature a:hover {
+    color: #f67590;
+}
+
+@media (min-width:992px)and (max-width:1100px) {
+    .Single-feature h2 {
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width:650px) and (max-width:992px) {
+    .Single-feature {
+        padding: 1rem;
+    }
+
+    .Single-feature p {
+        padding-right: 50%;
+    }
+
+}
+
+@media (max-width:650px) {
+
+    .Single-feature p {
+        padding-right: 30%;
+    }
+
+}
+
+/* ----------------------------------------Feature End---------------------------------------- */
+
+/* ----------------------------------------special Start---------------------------------------- */
+.offer-left {
+    background-image: url("../img/special1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.offer-right {
+    background-image: url("../img/special2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.offer-left,
+.offer-right {
+    min-height: 495px;
+    display: flex;
+    color: #fff;
+}
+
+.offer-description {
+    align-self: self-end;
+    text-align: center;
+}
+
+.offer-description p {
+    padding: 0 6%;
+    margin-bottom: 5%;
+
+}
+
+/* ----------------------------------------special End---------------------------------------- */
+
+/* ----------------------------------------images Start---------------------------------------- */
+
+.images-area {
+    padding: 5% 0;
+    background-color: white;
+}
+
+.single-img {
+    margin-top: 30px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    height: 200px;
+}
+
+/* ----------------------------------------images End---------------------------------------- */
+
+
+/* ----------------------------------------Process Start---------------------------------------- */
+.Process-ares {
+    background-color: #f9faff;
+    padding: 100px 0;
+
+}
+
+.process-icon {
+    background-color: #fff;
+    float: left;
+    padding: 20px;
+    margin-right: 10px;
+    width: 20%;
+    text-align: center;
+}
+
+.process-icon i {
+    font-size: 28px;
+    color: #f5204b;
+    font-weight: 600;
+}
+
+.process-desc {
+    margin-left: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.process-desc h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.process-desc p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #777777;
+    padding-right: 5%;
+}
+
+.single-process {
+    margin-bottom: 15px;
+}
+
+@media (min-width:992px) and(max-width:1100px) {
+    .process-desc h2 {
+        font-size: 15px;
+    }
+
+    .process-desc p {
+        font-size: 13px;
+    }
+
+    .process-icon i {
+        font-size: 25px;
+    }
+
+
+}
+
+/* ----------------------------------------Process End---------------------------------------- */
+
+
+/* ----------------------------------------About start---------------------------------------- */
+.single-about-content {
+    padding-left: 10%;
+}
+
+.single-about-content h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.single-about-content p {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+
+}
+
+/* ----------------------------------------About End---------------------------------------- */
+
+/* ----------------------------------------subcribe Srart---------------------------------------- */
+
+.subcribe-form {
+    margin-top: 30px;
+}
+
+@media (min-width: 991px) {
+    .subcribe-form {
+        width: 600px;
+    }
+}
+
+.subscription {
+    position: relative;
+    margin-bottom: 10%;
+}
+
+.subscription input {
+    width: 100%;
+    line-height: 50px;
+    padding: 0 180px 0 25px;
+    border: none;
+    background: #fff;
+    font-weight: 300;
+    border-radius: 25px;
+    color: #000;
+}
+
+
+.Subscribe-btn {
+    line-height: 40px;
+    padding: 0 30px;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #f67590;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+
+}
+
+@media (max-width: 510px) {
+    .Subscribe-area h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Subscribe-btn {
+        top: 120%;
+        transform: translate(50%, 0);
+        right: 50%;
+        width: 177px;
+    }
+}
+
+/* ----------------------------------------Subscribe End---------------------------------------- */
+
+
+/* ----------------------------------------Footer start---------------------------------------- */
+.footer-area{
+    margin-bottom: 7%;
+    background-image: url("../img/footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    color: white;
+}
+.footer-area p a{
+    text-decoration: none;
+    color: black;
+}
+.footer-social{
+    margin-top: 30px;
+}
+.footer-social a i{
+    padding: 15px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.footer-social a i:hover{
+    color: #000;
+}
+
+/* ----------------------------------------Footer End---------------------------------------- */
+
